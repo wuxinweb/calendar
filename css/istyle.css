@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#calen {
+  width: 420px;
+  overflow: hidden;
+  border: 2px solid #2196f3;
+  border-bottom-width: 1px;
+}
+#calen .s {
+  position: relative;
+}
+#calen .s span {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100px;
+  height: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+#calen .s #l {
+  left: 0;
+}
+#calen .s #r {
+  right: 0;
+}
+#calen h2 {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  border-bottom: 2px solid #2196f3;
+}
+#calen ul li {
+  text-align: center;
+  list-style: none;
+  line-height: 50px;
+  float: left;
+  width: 60px;
+  height: 50px;
+  border-bottom: 1px solid #2196f3;
+}
+#calen ul .lis {
+  color: #888;
+}
+#calen ul .lia {
+  color: #fff;
+  font-weight: bold;
+  background-color: #2196f3;
+}
+#calen .chead li {
+  height: 40px;
+  line-height: 40px;
+}
+
+/*# sourceMappingURL=istyle.css.map */
